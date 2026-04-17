@@ -2,7 +2,7 @@
 pageType: home
 
 hero:
-  name: My Site
+  name: Which
   text: A cool website!
   tagline: This is the tagline
   actions:
