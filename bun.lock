@@ -1,0 +1,23 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "which",
+    },
+    "apps/extension": {
+      "name": "@which/extension",
+      "dependencies": {
+        "@which/core": "workspace:*",
+      },
+    },
+    "packages/core": {
+      "name": "@which/core",
+    },
+  },
+  "packages": {
+    "@which/core": ["@which/core@workspace:packages/core"],
+
+    "@which/extension": ["@which/extension@workspace:apps/extension"],
+  }
+}
