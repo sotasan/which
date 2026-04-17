@@ -14,8 +14,8 @@
         "@which/core": "workspace:*",
       },
     },
-    "apps/extension": {
-      "name": "@which/extension",
+    "apps/ext": {
+      "name": "@which/ext",
       "dependencies": {
         "@which/core": "workspace:*",
         "react": "^19.2.5",
@@ -293,7 +293,7 @@
 
     "@which/core": ["@which/core@workspace:packages/core"],
 
-    "@which/extension": ["@which/extension@workspace:apps/extension"],
+    "@which/ext": ["@which/ext@workspace:apps/ext"],
 
     "@which/web": ["@which/web@workspace:apps/web"],
 

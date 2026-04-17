@@ -24,7 +24,7 @@
   ],
   "scripts": {
     "cli:start": "bun run --filter @which/cli start",
-    "extension:dev": "bun run --filter @which/extension dev",
+    "ext:dev": "bun run --filter @which/ext dev",
     "web:dev": "bun run --filter @which/web dev"
   },
   "devDependencies": {}
