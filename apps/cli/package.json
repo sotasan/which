@@ -1,0 +1,13 @@
+{
+  "name": "@which/cli",
+  "type": "module",
+  "bin": {
+    "wh": "src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts"
+  },
+  "dependencies": {
+    "@which/core": "workspace:*"
+  }
+}

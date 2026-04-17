@@ -5,6 +5,15 @@
     "": {
       "name": "which",
     },
+    "apps/cli": {
+      "name": "@which/cli",
+      "bin": {
+        "which": "src/index.ts",
+      },
+      "dependencies": {
+        "@which/core": "workspace:*",
+      },
+    },
     "apps/extension": {
       "name": "@which/extension",
       "dependencies": {
@@ -182,6 +191,8 @@
     "@webext-core/isolated-element": ["@webext-core/isolated-element@1.1.5", "", { "dependencies": { "is-potential-custom-element-name": "^1.0.1" } }, "sha512-4m6oP8Vzm/68YO1QmkUOZqqUcmyBtA53tji2g00/nYXE3E3IceYgeub7eIqvXDV2Z7xU6cm6qO1IMt4XFVwtvQ=="],
 
     "@webext-core/match-patterns": ["@webext-core/match-patterns@1.0.3", "", {}, "sha512-NY39ACqCxdKBmHgw361M9pfJma8e4AZo20w9AY+5ZjIj1W2dvXC8J31G5fjfOGbulW9w4WKpT8fPooi0mLkn9A=="],
+
+    "@which/cli": ["@which/cli@workspace:apps/cli"],
 
     "@which/core": ["@which/core@workspace:packages/core"],
 

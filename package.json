@@ -22,7 +22,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "bun run --filter @which/extension dev"
+    "cli:start": "bun run --filter @which/cli start",
+    "extension:dev": "bun run --filter @which/extension dev"
   },
   "devDependencies": {}
 }
