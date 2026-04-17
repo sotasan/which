@@ -1,0 +1,7 @@
+{
+  "name": "@which/extension",
+  "type": "module",
+  "dependencies": {
+    "@which/core": "workspace:*"
+  }
+}
