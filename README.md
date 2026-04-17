@@ -1,6 +1,6 @@
 # Which
 
-Discover which technologies power any website.
+Detect which technologies power any website.
 
 ## License
 

@@ -2,7 +2,7 @@
   "name": "which",
   "version": "0.1.0",
   "private": true,
-  "description": "TODO",
+  "description": "Detect which technologies power any website.",
   "keywords": [
     "TODO"
   ],

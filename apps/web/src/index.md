@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: Which
   text: A cool website!
-  tagline: This is the tagline
+  tagline: Detect which technologies power any website.
   actions:
     - theme: brand
       text: Quick Start
