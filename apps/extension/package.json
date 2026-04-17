@@ -1,5 +1,6 @@
 {
   "name": "@which/extension",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "wxt",

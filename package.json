@@ -1,6 +1,7 @@
 {
   "name": "which",
   "version": "0.1.0",
+  "private": true,
   "description": "TODO",
   "keywords": [
     "TODO"
@@ -23,7 +24,8 @@
   ],
   "scripts": {
     "cli:start": "bun run --filter @which/cli start",
-    "extension:dev": "bun run --filter @which/extension dev"
+    "extension:dev": "bun run --filter @which/extension dev",
+    "web:dev": "bun run --filter @which/web dev"
   },
   "devDependencies": {}
 }

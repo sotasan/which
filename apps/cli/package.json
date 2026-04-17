@@ -1,5 +1,6 @@
 {
   "name": "@which/cli",
+  "private": true,
   "type": "module",
   "bin": {
     "wh": "src/index.ts"
